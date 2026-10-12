@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Lisp Dungeon
+Exec=lisp-dungeon
+Terminal=false
+Categories=Game;
+Icon=icon
