@@ -1,7 +1,7 @@
 (in-package #:lisp-dungeon)
 
-(define-constant +window-width+ 800)
-(define-constant +window-height+ 600)
+(define-constant +window-width+ 1280)
+(define-constant +window-height+ 800)
 
 (define-constant +repl-update-interval+ 0.3d0)
 
