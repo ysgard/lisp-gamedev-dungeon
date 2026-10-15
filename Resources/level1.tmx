@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="40" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="15">
+ <tileset firstgid="1" source="dungeontileset-extended2.tsx"/>
+ <layer id="1" name="floor" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzVl9tOwkAQhruHKxCFV6IKCQfRV4Jgk3oA3kkxKSj4Rv5NdrLTTROomux48aXb3ZnyZYZuW62SRP8zbmySZCcY2GY5lXhdjQ+vVUdm/HiJ+CHjnUFzD8E1l7+I52uvwbEkBRaYE7l87a/m69ZCyO+c3Jh+fYF+qevrHCwE+nFPif21rL9WqF/LHdsC/FqONosdgbEjtt+I+VD9cvDoiO2XMx+aK8DOEduvYD7luXE1vFb+HpZ0f/D9ReL+lyq/v0itn1HVZ7AkPxt4SvOjHpszc2PU7wrvs13Q0/H9LuDQAZfa+80wvgP3AvwmcJiCW+3/cyuM12AjwO8JDs/gRfu5A8ZH8NXAryRj/DQ+zNnD4QN8svpRn2n/e7P++2Yb/B5fq6NpfF0Oh55vWlXfUWND32/fQVXiww==
+  </data>
+ </layer>
+ <layer id="4" name="walls" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzgEKgCAMBVDJk5UeLT1Z3qsJCku2yEiK+IOPCd/1gjVmMcc4ykbx5TsnlZP3vHDWJPae9+s+3nXC7pUSyRZaH917xnX240l/trKPz9u+tnvVNyk7NZ/WH+XT9mo+rQ8ffPDBBx988MEHH3wjfdr09vP8wffU/+74pB1f9+37IVqd
+  </data>
+ </layer>
+ <layer id="5" name="decor" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgaALiCcwMDBOBGBvwgtLe2KVRALIaLxxqDjEi2B2MqHIwdxxC03MBKHYRh/voCQaLO4YKuMJKHXM6STSHVPWUgpMk2keq+lEwCkbBKBgFo2AUjAJ6gdF2FyrggNKXsZjDyogphg+Qqp6DsBIGDzxyriTad5RE9fjshoEOPHKtpIYfE2nq8dk9WAEAuAETzQ==
+  </data>
+ </layer>
+ <layer id="7" name="shadows" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1jENAAAIwDAuEvwb5kADgaO9J2AR8F/lbg8AwPBdcKcB+AcAPQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="objects">
+  <object id="1" gid="152" x="32" y="128" width="32" height="32">
+   <properties>
+    <property name="character" type="class" propertytype="character">
+     <properties>
+      <property name="speed" type="float" value="100"/>
+     </properties>
+    </property>
+    <property name="player" type="class" propertytype="player"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
